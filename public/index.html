@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" href="./images/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Weather App"/>
     <link rel="apple-touch-icon" href="./images/logo.png" />
@@ -21,6 +21,9 @@
               .catch((err) => console.log('Failure: ', err))
         })
       }
+
+    document.body.style.overflow = "hidden"
+
     </script>
   </body>
 </html>
